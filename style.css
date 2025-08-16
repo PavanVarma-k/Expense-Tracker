@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+#expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+#expense-list li button {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
